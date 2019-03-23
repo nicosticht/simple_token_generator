@@ -16,7 +16,7 @@ module SimpleTokenGenerator
     private_class_method
 
     def self.unformated_token(length)
-      length.times.map{ random_char }.join
+      Array.new(length) { random_char }.join
     end
 
     def self.random_char
