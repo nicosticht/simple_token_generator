@@ -11,17 +11,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Generates a simple Token out of uppercase letters and delimiters.'
   spec.description   = 'Generates a simple token consisting of uppercase letters with the posibillity to define a prefix, the delimiter, the number of slices and the size of a block.'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = 'https://github.com/nicosticht/simple_token_generator'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-
-    spec.metadata['homepage_uri'] = spec.homepage
-    spec.metadata['source_code_uri'] = "TODO: Put your gem's public repo URL here."
-    spec.metadata['changelog_uri'] = "TODO: Put your gem's CHANGELOG.md URL here."
+    spec.metadata['allowed_push_host'] = ''
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
       'public gem pushes.'
